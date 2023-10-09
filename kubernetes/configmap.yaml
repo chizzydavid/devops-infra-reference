@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: application-config
+  namespace: application-ns
+data:
+  NODE_ENV: "production"
+  PORT: "8001"
+  LOG_LEVEL: "info"
